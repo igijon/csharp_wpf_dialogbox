@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message_Box_Dialog", "Message_Box_Dialog\Message_Box_Dialog.csproj", "{461426E1-6F75-4A77-8A3D-11D468BAFD70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common_Dialog_Box", "Common_Dialog_Box\Common_Dialog_Box.csproj", "{BF501052-B674-4CF7-9A50-E220631F3BE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{461426E1-6F75-4A77-8A3D-11D468BAFD70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{461426E1-6F75-4A77-8A3D-11D468BAFD70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{461426E1-6F75-4A77-8A3D-11D468BAFD70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF501052-B674-4CF7-9A50-E220631F3BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF501052-B674-4CF7-9A50-E220631F3BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF501052-B674-4CF7-9A50-E220631F3BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF501052-B674-4CF7-9A50-E220631F3BE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
