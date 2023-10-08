@@ -34,8 +34,16 @@ namespace Open_Dialog_Box
                 MessageBox.Show($"You closed the margins window! It had the title of {marginsWindow.Title}");
             };
 
-            marginsWindow.Show();
-
+            bool? result = marginsWindow.ShowDialog();
+            
+            if ( result == true )
+            {
+                MessageBox.Show("Your request will be processed.");
+            }
+            else
+            {
+                MessageBox.Show("Sorry it didn't work out, we'll try again later.");
+            }
         }
     }
 }

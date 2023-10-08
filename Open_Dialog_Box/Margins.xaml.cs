@@ -23,5 +23,20 @@ namespace Open_Dialog_Box
         {
             InitializeComponent();
         }
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+
+        }
+
+        private void okButton_Click(object sender, RoutedEventArgs e)
+        {
+            DialogResult = true; //Sólo funciona si se abrió con ShowDialog();
+        }
+
+        private void cancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            DialogResult = false;
+        }
+
     }
 }
