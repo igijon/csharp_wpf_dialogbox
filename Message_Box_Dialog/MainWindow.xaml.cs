@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Message_Box
+namespace Message_Box_Dialog
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -27,9 +27,9 @@ namespace Message_Box
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-           var result = MessageBox.Show("¿Quieres continuar?", "Pregunta", MessageBoxButton.YesNo, MessageBoxImage.Question, MessageBoxResult.Yes);
+            var result = MessageBox.Show("¿Quieres continuar?", "Pregunta", MessageBoxButton.YesNo, MessageBoxImage.Question, MessageBoxResult.Yes);
             if (result == MessageBoxResult.Yes)
-                MessageBox.Show("Seleccionaste SÍ");
+                MessageBox.Show("Seleccionaste SÍ","Aviso", MessageBoxButton.OK, MessageBoxImage.Information);
             if (result == MessageBoxResult.No)
                 MessageBox.Show("Seleccionaste NO");
         }

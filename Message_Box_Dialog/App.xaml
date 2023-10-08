@@ -1,7 +1,7 @@
-﻿<Application x:Class="Message_Box.App"
+﻿<Application x:Class="Message_Box_Dialog.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:MessageBox"
+             xmlns:local="clr-namespace:Message_Box_Dialog"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
