@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message_Box_Dialog", "Messa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common_Dialog_Box", "Common_Dialog_Box\Common_Dialog_Box.csproj", "{BF501052-B674-4CF7-9A50-E220631F3BE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom_Dialog_Box", "Custom_Dialog_Box\Custom_Dialog_Box.csproj", "{1B8BD570-5550-4C33-BCB6-EF53188CC343}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BF501052-B674-4CF7-9A50-E220631F3BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF501052-B674-4CF7-9A50-E220631F3BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF501052-B674-4CF7-9A50-E220631F3BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B8BD570-5550-4C33-BCB6-EF53188CC343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8BD570-5550-4C33-BCB6-EF53188CC343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8BD570-5550-4C33-BCB6-EF53188CC343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8BD570-5550-4C33-BCB6-EF53188CC343}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
